@@ -43,6 +43,15 @@
             z-index: -1; 
         }
 
+        /* 新增：顶部文字 */
+        .header-text {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #FF5733;  /* 采用与图中的文字颜色一致 */
+            margin-bottom: 30px;
+        }
+
         .nav-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -160,6 +169,9 @@
     </style>
 </head>
 <body>
+    <!-- 新增：顶部文字 -->
+    <div class="header-text">院校招聘频道入口</div>
+
     <main>
         <section class="nav-grid">
             <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&amp;__biz=MzUzMjU5ODAzMw==&amp;scene=110#wechat_redirect" target="_blank" rel="noopener">
