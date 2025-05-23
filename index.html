@@ -43,19 +43,19 @@
             z-index: -1; 
         }
 
-        /* ✅ 修改：顶部容器增加高度或内边距使其远离页面顶部 */
+        /* ✅ 顶部容器：垂直居中，间距紧凑 */
         .header-container {
-            height: 90px; /* 原80px → 140px，更充裕的顶部留白 */
+            height: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        /* ✅ 标题样式，仍保持与“热门招聘”一致 */
+        /* ✅ 标题样式：字体大小与 h2 一致，颜色设为黑色或继承默认 */
         .header-text {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #2c3e50;
+            color: black; /* 原 color: #2c3e50 → 与热门招聘一致 */
             text-align: center;
         }
 
@@ -176,7 +176,7 @@
     </style>
 </head>
 <body>
-    <!-- ✅ 顶部标题容器，增加高度以拉开与页面顶边距离 -->
+    <!-- ✅ 顶部标题区域，统一样式与“热门招聘” -->
     <div class="header-container">
         <div class="header-text">院校招聘频道入口</div>
     </div>
